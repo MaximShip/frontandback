@@ -1,0 +1,169 @@
+aside {
+    background-color: red; 
+}
+
+footer p {
+    padding-left: 45%;
+}
+
+footer {
+    position: relative;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+header {
+    background-color: greenyellow;
+    font-family: \'Courier New\', Courier, monospace;
+    font-size: 20px;
+}
+
+nav p {
+    padding-left: 10px;
+}
+
+nav p:active {
+    color: red;
+}
+
+nav p:hover {
+    color: blue;
+}
+
+nav {
+    padding: 5px;
+    width: 300px;
+    height: 732.5px;
+    border: 1px solid #000;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
+.card-holder img {
+    width: 300px;
+    height: 300px;
+}
+
+.card-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-website p {
+    padding-left: 10px;
+}
+
+.card-website{
+    width: auto;
+    border: 1px solid #000;
+}
+
+.comment {
+    vertical-align: top;
+}
+
+.corporative-website p {
+    padding-left: 10px;
+}
+
+.corporative-website{
+    width: auto;
+    border: 1px solid #000;
+}
+
+.form-close-btn {
+    height: 25px;
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+    padding: 20px;
+
+}
+
+.header-nav a {
+    padding: 10px;
+}
+
+.header-nav {
+    border: 1px solid #000;
+    padding: 20px;
+    border-top: 0px;
+}
+
+.header-text{
+    text-align: right;
+}
+
+.information-block h2 {
+    font-size: 40px;
+}
+
+.information-block {
+    padding: 20px;
+    width: 100%;
+    border-right: 1px solid #000;
+}
+
+.input-info {
+    width: 100%;
+}
+
+.internet-shop p {
+    padding-left: 10px;
+}
+
+.internet-shop {
+    width: auto;
+    border: 1px solid #000;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.main {
+    display: flex;
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 35%;
+    top: 25%;
+    background-color: grey; 
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-form {
+    padding: 10px;
+}
+
+.order-btn {
+    margin: 10px;
+    margin-top: 0px
+}
+
+.send-button {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.social {
+    margin-left: auto;
+    padding: 10px;
+}
+

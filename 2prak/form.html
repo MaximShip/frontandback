@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form class="main">
+        <div class="main-form">
+            <div class="form-head">
+                <h3>Разработка веб-приложения</h3>
+                <p>Заполните форму и мы обязательно свяжемся с  вами в ближайшее время для уточнения деталей</p> 
+            </div>
+            <div class="form-body">
+                <table>
+                    <tr>
+                        <td><label for="name">Как вас зовут</label></td>
+                        <td><input id="name" name="name" type="text" placeholder="например Иванов Иван Иванович" class="input-info"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Ваш e-mail</label></td>
+                        <td><input id="email" name="email" type="email" placeholder="test@mail.ru" class="input-info"></td>
+
+                    </tr>
+                    <tr>
+                        <td><label for="number">Телефон</label></td>
+                        <td><input id="number" name="number" type="number" placeholder="+7 919 999 99 99" class="input-info"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="country">Страна</label></td>
+                        <td><select id="country" name="country">
+                            <option value="ru">Россия</option>
+                            <option value="ge">Германия</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="data">Дата</label></td>
+                        <td><input type="date" iad="date" name="date"></td>
+                    </tr>
+                    <tr>
+                        <td class="comment"><label for="comment">Комментарий</label>
+                        <td><textarea id="comment" name="comment" cols="30" rows="7"></textarea></td>
+                    </tr>                    
+                </table>             
+            </div>
+        <input type="checkbox" style="width: 14px;">Согласие на обработку личных данных
+        <div class="send-button">
+        <button>Отправить заявку</button>
+        </div>    
+    </div>
+
+    </form>
+
+</body>
+</html>
+

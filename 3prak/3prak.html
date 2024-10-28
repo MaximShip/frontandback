@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="3prak.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="header-info">
+            <img src="../1073.jpg" alt="logo" class="logo">
+            <div class="header-text"> 
+                <p>Группа ЭФБО-09-23</p>
+                <p>Шипилов Максим Михайлович</p>
+            </div>
+        </div>
+        <div class="header-nav">
+            <a>Главная</a>
+            <a>Первый семестр</a>
+            <a>Второй семестр</a>
+            <a>Услуги</a>
+            <a>Авторизация</a>
+        </div>
+    </header>
+    <form class="main">
+        <div class="main-form">
+            <div class="form-head">
+                <div class="form-header">
+                    <h3>Разработка веб-приложения</h3>
+                    <button class="form-close-btn">X</button>
+                </div>
+                <p>Заполните форму и мы обязательно свяжемся с  вами в ближайшее время для уточнения деталей</p> 
+            </div>
+            <div class="form-body">
+                <table>
+                    <tr>
+                        <td><label for="name">Как вас зовут</label></td>
+                        <td><input id="name" name="name" type="text" placeholder="например Иванов Иван Иванович" class="input-info"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Ваш e-mail</label></td>
+                        <td><input id="email" name="email" type="email" placeholder="test@mail.ru" class="input-info"></td>
+
+                    </tr>
+                    <tr>
+                        <td><label for="number">Телефон</label></td>
+                        <td><input id="number" name="number" type="number" placeholder="+7 919 999 99 99" class="input-info"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="country">Страна</label></td>
+                        <td><select id="country" name="country">
+                            <option value="ru">Россия</option>
+                            <option value="ge">Германия</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="date">Дата</label></td>
+                        <td><input type="date" id="date" name="date"></td>
+                    </tr>
+                    <tr>
+                        <td class="comment"><label for="comment">Комментарий</label>
+                        <td><textarea id="comment" name="comment" cols="30" rows="7"></textarea></td>
+                    </tr>                    
+                </table>             
+            </div>
+        <input type="checkbox" style="width: 14px;">Согласие на обработку личных данных
+        <div class="send-button">
+        <button onclick="confirm_order()">Отправить заявку</button>
+        </div>    
+    </div>
+
+    </form>
+    <div class="main-content">
+        <nav>
+            <p>Навигация по странице</p>
+            <p>Фронтенд</p>
+            <p>Бэкенд</p>
+        </nav>
+        <div class="information-block">
+            <h2>Разработка веб-приложений</h2>
+            <div class="card-holder">
+                <div class="card-website">
+                    <img src="../1073.jpg" alt="photo-card">
+                    <p>Сайт-визитка</p>
+                    <button class="order-btn" onclick="open_form()">Заказать</button>
+                </div>
+                <div class="corporative-website">
+                    <img src="../1073.jpg" alt="photo-card">
+                    <p>Корпоративный сайт</p>
+                    <button class="order-btn" onclick="open_form()">Заказать</button>
+                </div>
+                <div class="internet-shop">
+                    <img src="../1073.jpg" alt="photo-card">
+                    <p>Интернет-магазин</p>
+                    <button class="order-btn" oncanplay="open_form()">Заказать</button>
+                </div>
+            </div>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; Шипилов Максим Михайлович, 2024</p>
+        <div class="social">
+            <a href="whatsapp.com"><img src="../icons8-whatsapp.svg" alt="whatsapp" style="width: 24px"></a>
+            <a href="https://vk.com"><img src="../icons8-vk-com.svg" alt="vk" style="width: 24px"></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.main{
+    width: 400px;
+    border: 1px solid #000;
+}
+
+.main-form {
+    padding: 20px;
+}
+
+.main-form input {
+    width: 60%;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+table {
+    width: 350px;
+}
+
+.form-body tr td {
+    text-align: inherit;
+}
+
+.comment {
+    vertical-align: top;
+}
+
+.send-button {
+    padding-top: 10px;
+    text-align: center;
+}
+
