@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="products.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-info">
+            <img src="../1073.jpg" alt="logo" class="logo">
+            <div class="header-text"> 
+                <p>Группа ЭФБО-09-23</p>
+                <p>Шипилов Максим Михайлович</p>
+            </div>
+        </div>
+        <div class="header-nav">
+            <a href="#">Главная</a>
+            <a href="#">Первый семестр</a>
+            <a href="#">Второй семестр</a>
+            <a href="#">Услуги</a>
+            <a href="#">Авторизация</a>
+        </div>
+    </header>
+    <div class="main-content">
+        <nav>
+            <a href="#">Навигация по странице</a>
+            <a href="#">Фронтенд</a>
+            <a href="#">Бэкенд</a>
+        </nav>
+        <div class="information-block">
+            <div class="grid-container">
+                <div class="item-card">
+                    <img src="../1073.jpg" alt="photo-card">
+                    <p>Сайт-визитка</p>
+                    <button class="order-btn" onclick="open_form('Сайт-визитка')">Заказать</button>
+                </div>
+                <div class="item-card">
+                    <img src="../1073.jpg" alt="photo-card">
+                    <p>Корпоративный сайт</p>
+                    <button class="order-btn" onclick="open_form('Корпоративный сайт')">Заказать</button>
+                </div>
+                <div class="item-card">
+                    <img src="../1073.jpg" alt="photo-card">
+                    <p>Интернет-магазин</p>
+                    <button class="order-btn shop-card" oncanplay="open_form('Интернет-магазин')">Заказать</button>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <footer>
+        <p>&copy; Шипилов Максим Михайлович, 2024</p>
+        <div class="social">
+            <a href="whatsapp.com"><img src="../icons8-whatsapp.svg" alt="whatsapp" style="width: 24px"></a>
+            <a href="https://vk.com"><img src="../icons8-vk-com.svg" alt="vk" style="width: 24px"></a>
+        </div>
+    </footer>
+</body>
+</html>

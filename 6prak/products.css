@@ -1,0 +1,126 @@
+aside {
+    background-color: greenyellow; 
+}
+
+footer p {
+    padding-left: 45%;
+}
+
+footer {
+    position: relative;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+section {
+    border-right: 1px solid #000;
+    background-color: lightblue;
+}
+
+header {
+    background-color: greenyellow;
+    font-family: \'Courier New\', Courier, monospace;
+    font-size: 20px;
+}
+
+nav a {
+    padding-left: 10px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:active {
+    color: red;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+nav {
+    background-color: greenyellow;
+    padding: 5px;
+    width: 200px;
+    height: 732.5px;
+    border: 1px solid #000;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+    padding: 20px;
+
+}
+
+.header-nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;   
+}
+
+.header-nav a:hover{
+    color:red;
+}
+
+
+.header-nav {
+    border: 1px solid #000;
+    padding: 20px;
+    border-top: 0px;
+}
+
+.header-text{
+    text-align: right;
+}
+
+
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.social {
+    margin-left: auto;
+    padding: 10px;
+}
+
+body {
+    background-color: #fff; ;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.main-content{
+    display: flex;
+}
+
+.item-card img {
+    width: 300px;
+    height: 300px;
+}
+
+.item-card {
+    display: block;
+    justify-content: space-between;
+    margin: 25px;
+    width: auto;
+    border: 1px solid #000;
+}
+
+.header {
+    grid-column: 1 / -1;
+}
