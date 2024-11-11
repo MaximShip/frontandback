@@ -57,21 +57,18 @@ nav a:hover {
 nav {
     padding: 5px;
     width: 300px;
-    height: auto;
+    height: 732.5px;
     border: 1px solid #000;
     border-bottom: 0px;
     border-top: 0px;
 }
 
-.item-card img {
-    width: auto;
-    height: auto;
-}
-
 .item-card {
-    display: flex;
+    display: block;
     justify-content: space-between;
     margin: 25px;
+    width: auto;
+    border: 1px solid #000;
 }
 
 
@@ -84,12 +81,6 @@ nav {
 .card-holder img {
     width: 300px;
     height: 300px;
-}
-
-.item-card {
-    display: block;
-    width: auto;
-    border: 1px solid #000;
 }
 
 .item-card p {
@@ -118,24 +109,21 @@ nav {
 }
 
 .header-nav a {
-    color: #fff;
-    text-decoration: none;
     padding: 10px;
-    transition: background-color 0.3s;
+    text-decoration: none;
+    color: black;   
 }
 
-.header-nav a:hover {
-    background-color: #555;
+.header-nav a:hover{
+    color:red;
 }
+
 
 .header-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #333;
-    padding: 10px;
+    border: 1px solid #000;
+    padding: 20px;
+    border-top: 0px;
 }
-
 
 .header-text{
     text-align: right;
@@ -144,10 +132,6 @@ nav {
 .information-block h2 {
     margin: 25px;
     font-size: 40px;
-}
-
-.information-block p {
-    margin: 25px;
 }
 
 .information-block {
@@ -227,39 +211,4 @@ body {
 
 .sub-info {
     padding: 25px;
-}
-
-.selfie {
-    width: 300px;
-    height: 300px;
-    float: right;
-    display: flex;
-}
-
-.information-block-text {
-    flex: 1;
-}
-
-.video {
-    display: flex;
-    justify-content: center;
-}
-
-.backend-video {
-    padding-bottom: 40px;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto);
-    gap: 20px;
-    margin: 20px;
-}
-
-.grid-item {
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
-    border: 1px solid #ccc;
 }
