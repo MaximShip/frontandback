@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Простой калькулятор</title>
+</head>
+<body>
+    <script>
+        const num1 = parseFloat(prompt("Введите первое число:"));
+        const num2 = parseFloat(prompt("Введите второе число:"));
+        const operator = prompt("Введите оператор (+, -, *, /):");
+        let result;
+        if (operator === "+") {
+            result = num1 + num2;
+        } else if (operator === "-") {
+            result = num1 - num2;
+        } else if (operator === "*") {
+            result = num1 * num2;
+        } else if (operator === "/") {
+            if (num2 !== 0) {
+                result = num1 / num2;
+            } else {
+                alert("Деление на ноль невозможно.");
+                console.log("Деление на ноль невозможно.");
+                result = null;
+            }
+        } else {
+            alert("Неверный оператор.");
+            console.log("Неверный оператор.");
+            result = null;
+        }
+        if (result !== null) {
+            alert(`Результат: ${result}`);
+            console.log(`Результат: ${result}`);
+        }
+    </script>
+</body>
+</html>
